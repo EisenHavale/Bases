@@ -19,7 +19,7 @@ Manejo de funciones predefinidas en Javascript
 * Funciones basicas de arrays
 * Funciones basicas de strings 
 
-Los ejercicios seran publicados en un numero de 5 cada semana. 
+***Los ejercicios seran publicados en un numero de 5 cada semana y media.***
 
 ## Reglas
 
@@ -32,4 +32,4 @@ Los ejercicios seran publicados en un numero de 5 cada semana.
 ## NO HACER
 
 * No usar var como palabra reservada para declaracion de variables, en su lugar const o let.
-* Un mismo archivo para resolver mas de un ejercicio
+* Un mismo archivo para resolver mas de un ejercicio a menos de que estos esten relacionados entre si
