@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(197,198,227,1) 0%, rgba(7,59,154,0.7791491596638656) 53%, rgba(0,212,255,1) 100%);
+  }
+
+  .Titu{
+    text-align: center;
+  }
+
+
+  .Imagenes{
+    text-align: center;
+  }
+
+  .mom{
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  .momentos{
+    margin: 20px;
+    width: 220px;
+    padding-left: 20px;
+    border-radius: 50px;
+  }
+
+
+  .pie{
+    background-color: #7a79ce;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+
+  
+
+  
