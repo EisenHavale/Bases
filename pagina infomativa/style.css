@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(197,198,227,1) 0%, rgba(7,59,154,0.7791491596638656) 53%, rgba(0,212,255,1) 100%);
+}
+
+.titulo,#foti, #footer, #trofeo{
+  text-align: center
+}
+ 
+
+
+#galeria{
+  width: 220px;
+    margin: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+
+}
+
+.detalles{
+  font-size: 0.8rem;
+    color: #0f0203;
+    text-decoration: none;
+}
+
+.parrafo{
+  font-size: 1.2rem;
+  text-justify: distribute 
+}
+
+.momentos{
+   width: 220px;
+    margin: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+#img{
+  text-align: center
+}
+
+.titulo:hover,.bioG:hover{
+  background-color: #222533;
+  color: #fff;
+  border-radius: 15px;
+  transition: all 500ms;
+}
