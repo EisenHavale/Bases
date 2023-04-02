@@ -5,7 +5,7 @@ body {
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(197,198,227,1) 0%, rgba(7,59,154,0.7791491596638656) 53%, rgba(0,212,255,1) 100%);
   }
 
-  .Titu{
+  .titulo{
     text-align: center;
   }
 
@@ -65,4 +65,61 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(197,198,227,1) 0%, rg
 
   
 
-  
+  /* Variables */
+:root {
+  --color-primario: #2855a3;
+  --color-secundario: #f1c40f;
+  --color-fondo: #f9f9f9;
+}
+
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, var(--color-secundario), var(--color-fondo));
+}
+
+a {
+  color: var(--color-primario);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+header {
+  background-color: var(--color-fondo);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav a:hover {
+  border-bottom: 2px solid var(--color-primario);
+}
+
+/* Main */
+main {
+  max-width:
+}
